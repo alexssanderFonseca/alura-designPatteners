@@ -1,11 +1,11 @@
 package br.com.alura.loja;
 
-import br.com.alura.loja.imposto.CalculadoraDeDescontos;
+import br.com.alura.loja.desconto.CalculadoraDeDescontos;
 import br.com.alura.loja.orcamento.Orcamento;
 
 import java.math.BigDecimal;
 
-public class TesteDesconto {
+public class TesteDescontos {
 
   public static void main(String[] args) {
     Orcamento orcamento1 = new Orcamento(new BigDecimal("100.00"), 6);
