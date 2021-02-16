@@ -54,7 +54,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="google-java-format.settings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TesteImpostos">
+    <configuration name="TesteDesconto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.loja.TesteDesconto" />
+      <module name="loja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.loja.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TesteImpostos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.loja.TesteImpostos" />
       <module name="loja" />
@@ -71,6 +84,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TesteImpostos" />
+        <item itemvalue="Application.TesteDesconto" />
       </list>
     </recent_temporary>
   </component>
@@ -101,29 +115,60 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1725" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1613322392124" />
+    <state x="1063" y="390" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1613438959384">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1063" y="390" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1613438959384" />
     <state x="1650" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613321936874">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1650" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1613321936874" />
-    <state width="2517" height="281" key="GridCell.Tab.0.bottom" timestamp="1613322487315">
+    <state width="2517" height="348" key="GridCell.Tab.0.bottom" timestamp="1613438998757">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="281" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1613322487315" />
-    <state width="2517" height="281" key="GridCell.Tab.0.center" timestamp="1613322487315">
+    <state width="2517" height="348" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1613438998757" />
+    <state width="2517" height="348" key="GridCell.Tab.0.center" timestamp="1613438998757">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="281" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1613322487315" />
-    <state width="2517" height="281" key="GridCell.Tab.0.left" timestamp="1613322487315">
+    <state width="2517" height="348" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1613438998757" />
+    <state width="2517" height="348" key="GridCell.Tab.0.left" timestamp="1613438998757">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="281" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1613322487315" />
-    <state width="2517" height="281" key="GridCell.Tab.0.right" timestamp="1613322487315">
+    <state width="2517" height="348" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1613438998757" />
+    <state width="2517" height="348" key="GridCell.Tab.0.right" timestamp="1613438998757">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="281" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1613322487315" />
+    <state width="2517" height="348" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1613438998757" />
+    <state width="2517" height="348" key="GridCell.Tab.1.bottom" timestamp="1613438949301">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="348" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1613438949301" />
+    <state width="2517" height="348" key="GridCell.Tab.1.center" timestamp="1613438949301">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="348" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1613438949301" />
+    <state width="2517" height="348" key="GridCell.Tab.1.left" timestamp="1613438949300">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="348" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1613438949300" />
+    <state width="2517" height="348" key="GridCell.Tab.1.right" timestamp="1613438949301">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="348" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1613438949301" />
     <state x="1421" y="168" key="SettingsEditor" timestamp="1613266845112">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1421" y="168" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1613266845112" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/alura/loja/imposto/CalculadoraDeDescontos.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
