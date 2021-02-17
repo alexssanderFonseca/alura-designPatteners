@@ -7,9 +7,19 @@ import java.math.BigDecimal;
 public abstract class Desconto {
 
   protected Desconto proximo;
-  public Desconto(Desconto proximo) {
+
+  protected Desconto(Desconto proximo) {
     this.proximo = proximo;
   }
 
-  public abstract BigDecimal calcular(Orcamento orcamento);
+  public abstract boolean isAplicavel(Orcamento orcamento);
+
+  public abstract BigDecimal efetuarDesconto(Orcamento orcamento);
+
+  public BigDecimal calcular(Orcamento orcamento) {
+    if (isAplicavel(orcamento)) {
+      return efetuarDesconto(orcamento);
+    }
+    return proximo.calcular(orcamento);
+  }
 }

@@ -54,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="google-java-format.settings" />
   </component>
-  <component name="RunManager" selected="Application.TesteDescontos">
+  <component name="RunManager" selected="Application.TesteImpostos">
     <configuration name="TesteDescontos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.loja.TesteDescontos" />
       <module name="loja" />
@@ -83,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TesteDescontos" />
         <item itemvalue="Application.TesteImpostos" />
+        <item itemvalue="Application.TesteDescontos" />
       </list>
     </recent_temporary>
   </component>
@@ -111,10 +111,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1725" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1613440582914">
+    <state x="1725" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1613529021836">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1725" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1613440582914" />
+    <state x="1725" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1613529021836" />
     <state x="1063" y="390" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1613438959384">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -123,22 +123,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1650" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1613321936874" />
-    <state width="2517" height="281" key="GridCell.Tab.0.bottom" timestamp="1613440923807">
+    <state width="2517" height="281" key="GridCell.Tab.0.bottom" timestamp="1613440985276">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="281" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1613440923807" />
-    <state width="2517" height="281" key="GridCell.Tab.0.center" timestamp="1613440923807">
+    <state width="2517" height="281" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1613440985276" />
+    <state width="2517" height="281" key="GridCell.Tab.0.center" timestamp="1613440985276">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="281" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1613440923807" />
-    <state width="2517" height="281" key="GridCell.Tab.0.left" timestamp="1613440923807">
+    <state width="2517" height="281" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1613440985276" />
+    <state width="2517" height="281" key="GridCell.Tab.0.left" timestamp="1613440985276">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="281" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1613440923807" />
-    <state width="2517" height="281" key="GridCell.Tab.0.right" timestamp="1613440923807">
+    <state width="2517" height="281" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1613440985276" />
+    <state width="2517" height="281" key="GridCell.Tab.0.right" timestamp="1613440985276">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="281" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1613440923807" />
+    <state width="2517" height="281" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1613440985276" />
     <state width="2517" height="348" key="GridCell.Tab.1.bottom" timestamp="1613439029097">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

@@ -11,13 +11,12 @@ public class DescontoParaValorMaiorQue500 extends Desconto {
   }
 
   @Override
-  public BigDecimal calcular(Orcamento orcamento) {
+  public boolean isAplicavel(Orcamento orcamento) {
+    return orcamento.getValor().compareTo(new BigDecimal("500.00")) > 0;
+  }
 
-    if (orcamento.getValor().compareTo(new BigDecimal("500.00")) > 0) {
-      return orcamento
-          .getValor()
-          .multiply(new BigDecimal("0.06").setScale(2, RoundingMode.CEILING));
-    }
-    return proximo.calcular(orcamento);
+  @Override
+  public BigDecimal efetuarDesconto(Orcamento orcamento) {
+    return orcamento.getValor().multiply(new BigDecimal("0.06").setScale(2, RoundingMode.CEILING));
   }
 }
