@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90745cc2-0ac1-4e1f-a948-91c9f5bc4496" name="Default Changelist" comment="" />
+    <list default="true" id="90745cc2-0ac1-4e1f-a948-91c9f5bc4496" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/Orcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/Orcamento.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +39,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -109,6 +113,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1725" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1613529021836">
@@ -123,22 +128,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1650" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1613321936874" />
-    <state width="2517" height="281" key="GridCell.Tab.0.bottom" timestamp="1613440985276">
+    <state width="2517" height="281" key="GridCell.Tab.0.bottom" timestamp="1613529446249">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="281" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1613440985276" />
-    <state width="2517" height="281" key="GridCell.Tab.0.center" timestamp="1613440985276">
+    <state width="2517" height="281" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1613529446249" />
+    <state width="2517" height="281" key="GridCell.Tab.0.center" timestamp="1613529446248">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="281" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1613440985276" />
-    <state width="2517" height="281" key="GridCell.Tab.0.left" timestamp="1613440985276">
+    <state width="2517" height="281" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1613529446248" />
+    <state width="2517" height="281" key="GridCell.Tab.0.left" timestamp="1613529446248">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="281" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1613440985276" />
-    <state width="2517" height="281" key="GridCell.Tab.0.right" timestamp="1613440985276">
+    <state width="2517" height="281" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1613529446248" />
+    <state width="2517" height="281" key="GridCell.Tab.0.right" timestamp="1613529446249">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="281" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1613440985276" />
+    <state width="2517" height="281" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1613529446249" />
     <state width="2517" height="348" key="GridCell.Tab.1.bottom" timestamp="1613439029097">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
