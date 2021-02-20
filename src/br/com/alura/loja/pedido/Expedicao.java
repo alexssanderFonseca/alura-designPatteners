@@ -4,13 +4,13 @@ import java.math.BigDecimal;
 
 public class Expedicao {
 
-  private Despache despache;
+    private Despache despache;
 
-  public Expedicao(Despache despache) {
-    this.despache = despache;
-  }
+    public Expedicao(Despache despache) {
+        this.despache = despache;
+    }
 
-  public BigDecimal executar() {
-    return despache.executar();
-  }
+    public BigDecimal executar() {
+        return despache.executar();
+    }
 }

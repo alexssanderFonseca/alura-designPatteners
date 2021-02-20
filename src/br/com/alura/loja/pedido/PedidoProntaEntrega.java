@@ -1,24 +1,26 @@
 package br.com.alura.loja.pedido;
 
+import br.com.alura.loja.cliente.Cliente;
 import br.com.alura.loja.coleta.ColetaCorreio;
-import br.com.alura.loja.orcamento.Orcamento;
 import br.com.alura.loja.produto.Produto;
-
 import java.math.BigDecimal;
 
 public class PedidoProntaEntrega extends Pedido implements Despache {
 
-  private ColetaCorreio coletaCorreio;
+    private ColetaCorreio coletaCorreio;
 
-  public
+    public PedidoProntaEntrega(Cliente cliente, Produto produto, int quantidade) {
+        super(cliente, produto, quantidade);
+        this.coletaCorreio = new ColetaCorreio(this, 0);
 
-  PedidoProntaEntrega(String cliente, Orcamento orcamento, String cpf) {
-    super(cliente, orcamento, cpf);
-    Produto produto = orcamento.getProduto();
-    this.coletaCorreio = new ColetaCorreio(produto.getPeso(), 0);
-  }
+    }
 
-  public BigDecimal executar() {
-    return coletaCorreio.calcularPreco();
-  }
+
+    public BigDecimal executar() {
+        return coletaCorreio.calcularPreco();
+    }
+
+    public ColetaCorreio getColetaCorreio() {
+        return coletaCorreio;
+    }
 }

@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 public class CalculadoraDeImpostos {
 
-  public BigDecimal calcular(BigDecimal valor, Imposto imposto) {
-    return imposto.calcular(valor);
-  }
+    public BigDecimal calcular(BigDecimal valor, Imposto imposto) {
+        return imposto.calcular(valor);
+    }
 }
